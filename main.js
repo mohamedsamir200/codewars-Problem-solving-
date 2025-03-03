@@ -95,6 +95,35 @@
 // }
 // console.log(findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]));
 
-//  "found the needle at position 5"
 //#endregion
 
+//#region  Count-of-positives-sum-of-negatives
+/* Link ==> https://www.codewars.com/kata/576bb71bbbcf0951d5000044/train/javascript */
+// function countPositivesSumNegatives(input) {
+
+//     // let countPositive = [];
+//     // let sumNegative = 0;
+//     // for (let i = 0; i < input.length; i++) {
+//     //     if (input[i] > 0) {
+//     //         countPositive.push(input[i]);
+//     //     } else {
+//     //         sumNegative += input[i];
+//     //     }
+
+//     // }
+
+//     // return [countPositive.length, sumNegative];
+
+//     "============================================";
+
+//     // let countPositive = input.filter((ele) => ele > 0).length;
+//     // let sumNegative = input.filter((ele) => ele < 0).reduce((acc, current) => acc + current, 0);
+//     // const result = [countPositive, sumNegative];
+//     // return result;
+
+// }
+
+// console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]));
+
+
+//#endregion
