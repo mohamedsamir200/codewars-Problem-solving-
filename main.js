@@ -486,8 +486,87 @@
 
 //#region  Exclusive Xor Operator
 // Link ==>  https://www.codewars.com/kata/56fa3c5ce4d45d2a52001b3c/train/javascript
+// function xor(a, b) {
+//     return a === b ? false : true;
+// }
+// console.log(xor(false, true));
+// console.log(xor(true, true));
+// console.log(xor(false, false));
+//#endregion
+
+//#region Find the first non consecutive number
+// Links ==> https://www.codewars.com/kata/58f8a3a27a5c28d92e000144/train/javascript
+// function firstNonConsecutive(arr) {
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] - 1  > arr[i - 1]) {
+//             return arr[i];
+//         }
+//     }
+//     return null;
+
+// }
+// console.log(firstNonConsecutive([1, 2, 3, 4, 6, 7, 8]));
+//#endregion
+
+//#region   Volume Of a Cubiod
+// Link ==> https://www.codewars.com/kata/58261acb22be6e2ed800003a/train/javascript
+// class Kata {
+//     static getVolumeOfCuboid(length, width, height) {
+//         return length * width * height;
+//     }
+// }
+// console.log(Kata.getVolumeOfCuboid(10, 10, 10));
 
 //#endregion
 
-//#region
+//#region Formatting To Decimal Places
+// Link ==> https://www.codewars.com/kata/5641a03210e973055a00000d/train/javascript
+// function twoDecimalPlaces(n) {
+//     return +n.toFixed(2);
+// }
+// console.log(twoDecimalPlaces(5.5589));
+// console.log(twoDecimalPlaces(-3.3424));
 //#endregion
+
+//#region  Dollar And Cents
+// Link ==> https://www.codewars.com/kata/55902c5eaa8069a5b4000083/train/javascript
+
+// function formatMoney(amount) {
+//     return `$${amount.toFixed(2)}`;
+// }
+// console.log(formatMoney(39.99));
+// console.log(formatMoney(3.1));
+//#endregion
+
+//#region Find The Position
+// Link == > https://www.codewars.com/kata/5808e2006b65bff35500008f/train/javascript
+// function position(letter) {
+//     const lettersObject = {
+//         a: 1, b: 2, c: 3, d: 4, e: 5, f: 6, g: 7, h: 8, i: 9, j: 10,
+//         k: 11, l: 12, m: 13, n: 14, o: 15, p: 16, q: 17, r: 18, s: 19, t: 20,
+//         u: 21, v: 22, w: 23, x: 24, y: 25, z: 26
+//     };
+//     if (lettersObject.hasOwnProperty(letter)) {
+//         return `Position of alphabet: ${lettersObject[letter]}`;
+//     }
+
+// }
+// console.log(position("a"));
+// console.log(position("z"));
+//#endregion
+
+//#region Opposites attract
+// Link ==> https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
+// function lovefunc(flower1, flower2) {
+// //    if ((flower1%2==1 && flower2%2==0)||(flower1%2==0 && flower2%2==1)){
+// //         return true
+// //       }else{
+// //          return false
+// //       }
+
+// }
+
+
+// console.log(lovefunc(1, 4));
+// console.log(lovefunc(2, 2));
+//#endregion 
