@@ -258,3 +258,182 @@
 // console.log(litres(6.7));
 // console.log(litres(11.8));
 //#endregion
+
+//#region  Convert a Number to a String
+
+/* Link ==> https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/javascript */
+
+// function numberToString(num) {
+//     "========== with string method ============"
+//     //  return num.toString()
+//     "========== with template literal ============"
+//     // return `${num}`
+//   }
+// console.log( numberToString(123))
+// console.log(numberToString(999  ))
+// console.log(numberToString(-100 ))
+//#endregion
+
+
+//#region  Calculate average
+/* Link ==> https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/train/javascript */
+
+// function findAverage(array) {
+//     "========== with for loop ============";
+//     // let sum = 0;
+//     // for (let i = 0; i < array.length; i++) {
+//     //     sum += array[i];
+//     // }
+//     // return sum / array.length;
+
+//     "========== with higher order function [HOF] ============";
+//     // if (array.length == 0) return 0;
+//     // return array.reduce((acc, current) => acc + current, 0) / array.length;
+
+// }
+// console.log(findAverage([1, 2, 3, 4]));
+//#endregion
+
+
+//#region Convert a String to a Number
+// Link ==> https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
+// const stringToNumber = function (str) {
+//     "=====================";
+//     // return parseInt(str);
+//     "=====================";
+//     // return Number(str) ;
+//     "=====================";
+//     return +str;
+// };
+// console.log(stringToNumber("1234"));
+//#endregion
+
+
+//#region Count The Monkeys
+// Link ==>  https://www.codewars.com/kata/56f69d9f9400f508fb000ba7/train/javascript
+// function monkeyCount(n) {
+//     "============= with for loop =================";
+//     // const numbers = [];
+//     // for (let i = 1; i <= n; i++) {
+//     //     numbers.push(i);
+//     // }
+//     // return numbers;
+//     "============= Array From =================";
+//     // return Array.from({ length: n }, (_, i) => i + 1);
+
+// }
+
+// console.log(monkeyCount(10));
+// console.log(monkeyCount(5));
+// console.log(monkeyCount(1));
+//#endregion
+
+
+//#region Welcome
+// Link ==>  https://www.codewars.com/kata/577ff15ad648a14b780000e7/train/javascript
+// function greet(language) {
+//     const languages = {
+//         english: "Welcome",
+//         czech: "Vitejte",
+//         danish: "Velkomst",
+//         dutch: "Welkom",
+//         estonian: "Tere tulemast",
+//         finnish: "Tervetuloa",
+//         flemish: "Welgekomen",
+//         french: "Bienvenue",
+//         german: "Willkommen",
+//         irish: "Failte",
+//         italian: "Benvenuto",
+//         latvian: "Gaidits",
+//         lithuanian: "Laukiamas",
+//         polish: "Witamy",
+//         spanish: "Bienvenido",
+//         swedish: "Valkommen",
+//         welsh: "Croeso"
+//     };
+
+//     // if (languages.hasOwnProperty(language)) {
+//     //     return languages[language];
+//     // } else {
+//     //     return languages.english;
+//     // }
+
+//     "=========== with For OF ===============";
+//     // for (const [key, value] of Object.entries(languages)) {
+//     //     if (language === "") {
+//     //         return languages.english;
+//     //     } else if (language === key) {
+//     //         return value;
+//     //     }
+//     // }
+// }
+// console.log(greet("dutch"));
+// console.log(greet("french"));
+// console.log(greet(""));
+//#endregion
+
+
+//#region Sentence Smash
+// Link ==> https://www.codewars.com/kata/53dc23c68a0c93699800041d/train/javascript
+// function smash(words) {
+//     return words.join(" ").trim();
+// };
+// console.log(smash(['hello', 'world', 'this', 'is', 'great']));
+//#endregion
+
+
+//#region Switch It Up
+// Link ==> https://www.codewars.com/kata/5808dcb8f0ed42ae34000031/train/javascript
+// function switchItUp(number) {
+//     switch (number) {
+//         case 0: return "Zero";
+//         case 1: return "One";
+//         case 2: return "Two";
+//         case 3: return "Three";
+//         case 4: return "Four";
+//         case 5: return "Five";
+//         case 6: return "Six";
+//         case 7: return "Seven";
+//         case 8: return "Eight";
+//         case 9: return "Nine";
+//         default: return "inValid Number";
+//     }
+// }
+// console.log(switchItUp(8));
+//#endregion
+
+
+//#region  Do I Get A Bonus
+// Link ==> https://www.codewars.com/kata/56f6ad906b88de513f000d96/train/javascript
+// function bonusTime(salary, bonus) {
+//     return bonus ?`£${salary * 10}` : `£${salary}`;
+// }
+
+// console.log(bonusTime(8000, true));
+// console.log(bonusTime(8000, false));
+//#endregion
+
+
+//#region Exclamation marks
+// Link ==> https://www.codewars.com/kata/57fae964d80daa229d000126/train/javascript
+// function remove(string) {
+//     "========  by regular expression ============";
+//     // return string.replace(/!$/, "");
+//     "======== by endsWith / slice ============";
+//     // return string.endsWith("!") ? string.slice(0, -1) : string;
+// }
+// console.log(remove("Hi!"));
+// console.log(remove("Hi!!!"));
+// console.log(remove("Hi! Hi!"));
+//#endregion
+
+
+//#region Are You Playing Banjo
+// Link ==> https://www.codewars.com/kata/53af2b8861023f1d88000832/train/javascript
+// function areYouPlayingBanjo(name) {
+//     // return name[0] === "r" || name[0] === "R" ? name + " plays banjo" : name + " does not play banjo";
+//     "================================================";
+//     // return name[0].toLowerCase() === "r" ? name + " plays banjo" : name + " does not play banjo";
+// }
+// console.log(areYouPlayingBanjo("Ramy"));
+//#endregion
