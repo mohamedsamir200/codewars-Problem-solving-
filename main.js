@@ -437,3 +437,57 @@
 // }
 // console.log(areYouPlayingBanjo("Ramy"));
 //#endregion
+
+//#region Removing Elements
+// Link ==> https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript
+// function removeEveryOther(arr) {
+//     // let result = [];
+//     // for (let i = 0; i < arr.length; i++) {
+//     //     if (i % 2 == 0) {
+//     //         result.push(arr[i]);
+//     //     }
+//     // }
+//     // return result;
+//     "===========================";
+//     return arr.filter((_, index) => index % 2 == 0);
+
+// }
+// console.log(removeEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+// console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']));
+// console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
+//#endregion
+
+//#region Unfinished Loop - Bug Fixing #1
+// Link ==> https://www.codewars.com/kata/55c28f7304e3eaebef0000da/train/javascript
+// function createArray(number) {
+//     const newArray = [];
+//     for (let counter = 1; counter <= number; counter++) {
+//         newArray.push(counter);
+//     }
+//     return newArray;
+// }
+//#endregion
+
+//#region Transportation on vacation
+
+// Link ==> https://www.codewars.com/kata/568d0dd208ee69389d000016/train/javascript
+// function rentalCarCost(d) {
+//     let price = 40 * d;
+//     if (d < 3) return price;
+//     if (d >= 7) {
+//         return price - 50;
+//     } else {
+//         return price - 20;
+//     }
+// }
+
+// console.log(rentalCarCost(d));
+//#endregion
+
+//#region  Exclusive Xor Operator
+// Link ==>  https://www.codewars.com/kata/56fa3c5ce4d45d2a52001b3c/train/javascript
+
+//#endregion
+
+//#region
+//#endregion
