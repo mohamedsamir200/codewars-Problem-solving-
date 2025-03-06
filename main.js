@@ -569,4 +569,128 @@
 
 // console.log(lovefunc(1, 4));
 // console.log(lovefunc(2, 2));
-//#endregion 
+//#endregion
+
+//#region  No Zeros For Heros
+// Link ==> https://www.codewars.com/kata/570a6a46455d08ff8d001002/train/javascript
+// function noBoringZeros(n) {
+//   return + n.toString().replace(/0+$/g , "")
+//   }
+//   console.log(noBoringZeros(1050  ))
+//   console.log(noBoringZeros(1450   ))
+//   console.log(noBoringZeros(-1050    ))
+//   console.log(noBoringZeros(0    ))
+//   console.log(noBoringZeros(-105     ))
+//#endregion
+
+//#region  Get The Mean Of An Array
+// Link ==> https://www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript
+// function getAverage(marks) {
+//     if (marks.length == 0) return 0;
+//     let  avg = marks.reduce( (acc, current) => acc + current , 0) / marks.length
+//      return Math.ceil(avg)
+// }
+// console.log(getAverage([2.5, 2, 2.5, 22.5]));
+//#endregion
+
+//#region Vowel Remover
+//Link =>  https://www.codewars.com/kata/5547929140907378f9000039/train/javascript
+// function shortcut(string) {
+//     // const vowel = ["a", "e", "i", "u", "o"];
+//     // return string.split("").filter((char) => !vowel.includes(char)).join("");
+
+//     "========== with Regex ===========";
+//     return string.replace(/(a|e|i|u|o)/g, "");
+
+// }
+// console.log(shortcut("hello"));
+// console.log(shortcut("codewars"));
+// console.log(shortcut("goodbye"));
+// console.log(shortcut("HELLO"));
+//#endregion
+
+//#region Remove Exclamation Marks
+//Link ==>  https://www.codewars.com/kata/57a0885cbb9944e24c00008e/train/javascript
+// function removeExclamationMarks(s) {
+//     // return s.replace(/!/g , "");
+//     "===================================";
+//     // return s.split("").filter((word) => !word.includes("!"));
+// }
+// console.log(removeExclamationMarks("Hello!!!"));
+//#endregion
+
+//#region Reversed Strings
+// Link ==> https://www.codewars.com/kata/5168bb5dfe9a00b126000018/train/javascript
+// function solution(str) {
+//     // let result = "";
+//     // for (let i = str.length - 1; i >= 0; i--) {
+//     //     result += str[i];
+//     // }
+//     // return result;
+//     "==========================" ;
+//     // return str.split("").reverse().join("");
+
+// }
+// console.log(solution("world"));
+//#endregion
+
+// //#region Reduce but Grow
+// // Link ==> https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
+// function grow(x) {
+//     // let result = 1;
+//     // for (let i = 0; i < x.length; i++) {
+//     //     result *= x[i];
+
+//     // }
+//     // return result;
+//     "====================================";
+//     return x.reduce((acc, current) => acc * current);
+// }
+// console.log(grow([1, 2, 3, 4]));
+//#endregion
+
+//#region Is it a palindrome
+//  Link ==>  https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript
+// function isPalindrome(x) {
+//     return x.toLowerCase() === x.toLowerCase().split("").reverse().join("");
+
+// }
+// console.log(isPalindrome("aba"));
+// console.log(isPalindrome("hello"));
+//#endregion
+
+//#region Grasshopper - Summation
+// Link ==> https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/javascript
+// var summation = function (num) {
+//     return Array.from({ length: num }, (_, i) => i + 1).reduce((acc, current) => acc + current);
+// };
+// console.log(summation(8));
+//#endregion
+
+//#region  Printing Array elements with Comma delimiters
+// Link ==> https://www.codewars.com/kata/56e2f59fb2ed128081001328/train/javascript
+// function printArray(array) {
+//    return array.join()
+// }
+// console.log(printArray(["h","o","l","a"])) // ==> "h,o,l,a"
+//#endregion
+
+//#region How Many Stairs Will Suzuki Climb
+// Link ==> https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e/train/javascript 
+// stairs = [
+//     [6737, 7244, 5776], // Sunday 
+//     [9826, 7057, 9247], // Monday
+//     [5842, 5484, 6543], // Tuesday
+//     [5153, 6832, 8274], // Wednesday
+//     [7148, 6152, 5940], // Thursday
+//     [8040, 9174, 7555], // Friday
+//     [7682, 5252, 8793]  // Saturday
+// ];
+// function stairsIn20(s) {
+//     let oneYearTotal = s.flat().reduce((sum, num) => sum + num, 0);
+//     return oneYearTotal * 20;
+// }
+
+// console.log(stairsIn20(stairs));
+//#endregion
+
