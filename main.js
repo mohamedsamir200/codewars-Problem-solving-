@@ -712,7 +712,17 @@
 // console.log(squareSum([1, 2, 2])); // 9 
 //#endregion
 
-//#region
+
+//#region Find the smallest integer in the array 
+// Link ==> https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/javascript 
+// function findSmallestInt(arr) {
+//     // return Math.min(...arr);
+//     "==================================";
+//     // return arr.reduce((acc, current) => acc < current ? acc : current);
+
+// }
+// console.log(findSmallestInt([34, 15, 88, 2]));
+// console.log(findSmallestInt([34, -345, -1, 100]));
 //#endregion
 
 //#region
