@@ -740,5 +740,17 @@
 // console.log(isDivisible(5, 3, 4));
 //#endregion
 
-//#region
+//#region Beginner Lost Without a Map  
+// Link ==> https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript 
+// function maps(x) {
+//     const result = [];
+//     for (let i = 0; i < x.length; i++) {
+//         result.push(x[i] + x[i]);
+//     }
+//     return result;
+//     "=============================";
+//     // return x.map( (num) => num + num )
+// }
+// console.log(maps([1, 2, 3]));
 //#endregion
+
