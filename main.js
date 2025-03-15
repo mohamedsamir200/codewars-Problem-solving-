@@ -676,9 +676,9 @@
 //#endregion
 
 //#region How Many Stairs Will Suzuki Climb
-// Link ==> https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e/train/javascript 
+// Link ==> https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e/train/javascript
 // stairs = [
-//     [6737, 7244, 5776], // Sunday 
+//     [6737, 7244, 5776], // Sunday
 //     [9826, 7057, 9247], // Monday
 //     [5842, 5484, 6543], // Tuesday
 //     [5153, 6832, 8274], // Wednesday
@@ -694,3 +694,23 @@
 // console.log(stairsIn20(stairs));
 //#endregion
 
+//#region Remove First and Last Character
+// Link ==> https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript 
+// function removeChar(str){
+//    return str.slice(1 , -1)
+   
+//    };
+//    console.log(removeChar("Hello")) // ell
+//#endregion
+
+//#region
+//#endregion
+
+//#region
+//#endregion
+
+//#region
+//#endregion
+
+//#region
+//#endregion
