@@ -698,12 +698,18 @@
 // Link ==> https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript 
 // function removeChar(str){
 //    return str.slice(1 , -1)
-   
+
 //    };
 //    console.log(removeChar("Hello")) // ell
 //#endregion
 
-//#region
+//#region Square(n) Sum 
+// Link ==> https://www.codewars.com/kata/515e271a311df0350d00000f/train/javascript 
+// function squareSum(numbers) {
+//     return numbers.map((num) => Math.pow(num, 2)).reduce((acc, current) => acc + current, 0);
+// }
+// console.log(squareSum([0, 3, 4, 5])); // 50 
+// console.log(squareSum([1, 2, 2])); // 9 
 //#endregion
 
 //#region
