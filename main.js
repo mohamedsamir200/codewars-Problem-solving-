@@ -772,10 +772,17 @@
     //   console.log(sum([1, 5.2, 4, 0, -1]))
 //#endregion
 
-//#region 
-    //Link ==> 
-        
+//#region Simple multiplication
+    //Link ==> https://www.codewars.com/kata/583710ccaa6717322c000105/train/javascript
+//     function simpleMultiplication(number) {
+//       return number % 2 == 0 ? number * 8 : number * 9 
+//     }
+// console.log(simpleMultiplication(2))  // 2*8 = 16
+// console.log(simpleMultiplication(1))   // 1*9 = 9
+// console.log(simpleMultiplication(8))   // 8*8 =64
+    
 //#endregion
+
 
 //#region 
     //Link ==> 
