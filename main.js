@@ -820,9 +820,21 @@
 //#endregion
 
 
-//#region  
-    // Link ==> 
+//#region  Thinkful Logic Drills Traffic light 
+    // Link ==> https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript
+//     function updateLight(current) {
+// //   return current === "green" ? "yellow" : current === "yellow" ? "red" : current === "red" ? "green" : ""
+// // if (current === "green") return "yellow"
+// // if (current === "yellow") return "red"
+// // if (current === "red") return "green"
+
+  
+// }
+//       console.log(updateLight("green")) // yellow
+//       console.log(updateLight("yellow")) // red
+//       console.log(updateLight("red")) // green
 //#endregion
+
 
 //#region  
     // Link ==> 
