@@ -809,9 +809,16 @@
     // console.log(sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7] )) // 42
 //#endregion
 
-//#region  
-    // Link ==> 
+//#region  The Feast of Many Beasts
+    // Link ==> https://www.codewars.com/kata/5aa736a455f906981800360d/train/javascript
+    // function feast(beast, dish) {
+    //     return beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1] ? true : false
+    // }
+    //     console.log(feast("great blue heron", "garlic naan")) // true 
+    //     console.log(feast("chickadee", "chocolate cake")) // true 
+    //     console.log(feast("brown bear", "bear claw")) // false
 //#endregion
+
 
 //#region  
     // Link ==> 
