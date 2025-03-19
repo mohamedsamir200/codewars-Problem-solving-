@@ -756,79 +756,79 @@
 
 
 //#region Fake Binary
-    //Link ==> https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
-    // function fakeBin(x){
-    //     return x.split("").map( (num) => num >= 5 ? 1 : 0).join("")
-    // }
-    // console.log(fakeBin('45385593107843568'))
+//Link ==> https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
+// function fakeBin(x){
+//     return x.split("").map( (num) => num >= 5 ? 1 : 0).join("")
+// }
+// console.log(fakeBin('45385593107843568'))
 //#endregion
 
 //#region Sum Arrays
-    //Link ==> https://www.codewars.com/kata/53dc54212259ed3d4f00071c/train/javascript
-    // function sum (numbers) {
-    //     if (numbers.length === 0) return 0 ; 
-    //     return numbers.reduce( (acc , current) => acc + current , 0)
-    //   }
-    //   console.log(sum([1, 5.2, 4, 0, -1]))
+//Link ==> https://www.codewars.com/kata/53dc54212259ed3d4f00071c/train/javascript
+// function sum (numbers) {
+//     if (numbers.length === 0) return 0 ; 
+//     return numbers.reduce( (acc , current) => acc + current , 0)
+//   }
+//   console.log(sum([1, 5.2, 4, 0, -1]))
 //#endregion
 
 //#region Simple multiplication
-    //Link ==> https://www.codewars.com/kata/583710ccaa6717322c000105/train/javascript
+//Link ==> https://www.codewars.com/kata/583710ccaa6717322c000105/train/javascript
 //     function simpleMultiplication(number) {
 //       return number % 2 == 0 ? number * 8 : number * 9 
 //     }
 // console.log(simpleMultiplication(2))  // 2*8 = 16
 // console.log(simpleMultiplication(1))   // 1*9 = 9
 // console.log(simpleMultiplication(8))   // 8*8 =64
-    
+
 //#endregion
 
 
 //#region MakeUpperCase
-    //Link ==> https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
-    // function makeUpperCase(str) {
-    //         return str.toUpperCase()
-    //   }
-    //   console.log(makeUpperCase ("hello")) // HELLO
+//Link ==> https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
+// function makeUpperCase(str) {
+//         return str.toUpperCase()
+//   }
+//   console.log(makeUpperCase ("hello")) // HELLO
 //#endregion
 
 //#region Array plus array
-    // //Link ==> https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/train/javascript
-    // function arrayPlusArray(arr1, arr2) {
-    //     return   [...arr1 , ...arr2].reduce( (acc , current) => acc + current , 0 )
-    //   }
-    //   console.log(arrayPlusArray([1, 2, 3], [4, 5, 6])) // 21
+// //Link ==> https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/train/javascript
+// function arrayPlusArray(arr1, arr2) {
+//     return   [...arr1 , ...arr2].reduce( (acc , current) => acc + current , 0 )
+//   }
+//   console.log(arrayPlusArray([1, 2, 3], [4, 5, 6])) // 21
 //#endregion
 
 //#region  Sum Mixed Array
-    // Link ==> https://www.codewars.com/kata/57eaeb9578748ff92a000009/train/javascript
-    // function sumMix(x){
-    //     return x.map( (nums) => +nums ).reduce ( (acc , current) => acc + current , 0 )
-    // }
-    // console.log(sumMix([9, 3, '7', '3'])) // 22
-    // console.log(sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7] )) // 42
+// Link ==> https://www.codewars.com/kata/57eaeb9578748ff92a000009/train/javascript
+// function sumMix(x){
+//     return x.map( (nums) => +nums ).reduce ( (acc , current) => acc + current , 0 )
+// }
+// console.log(sumMix([9, 3, '7', '3'])) // 22
+// console.log(sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7] )) // 42
 //#endregion
 
 //#region  The Feast of Many Beasts
-    // Link ==> https://www.codewars.com/kata/5aa736a455f906981800360d/train/javascript
-    // function feast(beast, dish) {
-    //     return beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1] ? true : false
-    // }
-    //     console.log(feast("great blue heron", "garlic naan")) // true 
-    //     console.log(feast("chickadee", "chocolate cake")) // true 
-    //     console.log(feast("brown bear", "bear claw")) // false
+// Link ==> https://www.codewars.com/kata/5aa736a455f906981800360d/train/javascript
+// function feast(beast, dish) {
+//     return beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1] ? true : false
+// }
+//     console.log(feast("great blue heron", "garlic naan")) // true 
+//     console.log(feast("chickadee", "chocolate cake")) // true 
+//     console.log(feast("brown bear", "bear claw")) // false
 //#endregion
 
 
 //#region  Thinkful Logic Drills Traffic light 
-    // Link ==> https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript
+// Link ==> https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript
 //     function updateLight(current) {
 // //   return current === "green" ? "yellow" : current === "yellow" ? "red" : current === "red" ? "green" : ""
 // // if (current === "green") return "yellow"
 // // if (current === "yellow") return "red"
 // // if (current === "red") return "green"
 
-  
+
 // }
 //       console.log(updateLight("green")) // yellow
 //       console.log(updateLight("yellow")) // red
@@ -837,15 +837,37 @@
 
 
 //#region  L1 Set Alarm 
-    // Link ==> https://www.codewars.com/kata/568dcc3c7f12767a62000038/train/javascript 
-    // function setAlarm(employed, vacation){
-    //     return employed && !vacation
-    // }
-    // console.log(setAlarm (true , true)) // false
-    // console.log(setAlarm (false , true)) // false
-    // console.log(setAlarm (true , false)) // trues
+// Link ==> https://www.codewars.com/kata/568dcc3c7f12767a62000038/train/javascript 
+// function setAlarm(employed, vacation){
+//     return employed && !vacation
+// }
+// console.log(setAlarm (true , true)) // false
+// console.log(setAlarm (false , true)) // false
+// console.log(setAlarm (true , false)) // trues
 //#endregion
 
-//#region  
-    // Link ==> 
+//#region  Quarter of the year
+// Link ==> https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/javascript 
+// const quarterOf = (month) => {
+//     // switch (month) {
+//     //     case 1: case 2: case 3:
+//     //         return 1;
+//     //     case 4: case 5: case 6:
+//     //         return 2;
+//     //     case 7: case 8: case 9:
+//     //         return 3;
+//     //     case 10: case 11: case 12:
+//     //         return 4;
+//     //     default: return "invalid"
+//     // }
+//     "==========================================";
+//     // return month < 4 ? 1 : month < 7 ? 2 : month < 10 ? 3 : 4
+//     "==========================================";
+//     // return Math.ceil(month / 3);
+
+// };
+// console.log(quarterOf(3)); // 1
+// console.log(quarterOf(8)); //3
+// console.log(quarterOf(11)); // 4
+// console.log(quarterOf(0)); // invalid
 //#endregion
