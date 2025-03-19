@@ -800,3 +800,27 @@
     //   console.log(arrayPlusArray([1, 2, 3], [4, 5, 6])) // 21
 //#endregion
 
+//#region  Sum Mixed Array
+    // Link ==> https://www.codewars.com/kata/57eaeb9578748ff92a000009/train/javascript
+    // function sumMix(x){
+    //     return x.map( (nums) => +nums ).reduce ( (acc , current) => acc + current , 0 )
+    // }
+    // console.log(sumMix([9, 3, '7', '3'])) // 22
+    // console.log(sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7] )) // 42
+//#endregion
+
+//#region  
+    // Link ==> 
+//#endregion
+
+//#region  
+    // Link ==> 
+//#endregion
+
+//#region  
+    // Link ==> 
+//#endregion
+
+//#region  
+    // Link ==> 
+//#endregion
