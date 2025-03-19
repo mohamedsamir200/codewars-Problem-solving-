@@ -836,8 +836,14 @@
 //#endregion
 
 
-//#region  
-    // Link ==> 
+//#region  L1 Set Alarm 
+    // Link ==> https://www.codewars.com/kata/568dcc3c7f12767a62000038/train/javascript 
+    // function setAlarm(employed, vacation){
+    //     return employed && !vacation
+    // }
+    // console.log(setAlarm (true , true)) // false
+    // console.log(setAlarm (false , true)) // false
+    // console.log(setAlarm (true , false)) // trues
 //#endregion
 
 //#region  
