@@ -763,9 +763,13 @@
     // console.log(fakeBin('45385593107843568'))
 //#endregion
 
-//#region 
-    //Link ==> 
-        
+//#region Sum Arrays
+    //Link ==> https://www.codewars.com/kata/53dc54212259ed3d4f00071c/train/javascript
+    // function sum (numbers) {
+    //     if (numbers.length === 0) return 0 ; 
+    //     return numbers.reduce( (acc , current) => acc + current , 0)
+    //   }
+    //   console.log(sum([1, 5.2, 4, 0, -1]))
 //#endregion
 
 //#region 
