@@ -634,7 +634,7 @@
 // console.log(solution("world"));
 //#endregion
 
-// //#region Reduce but Grow
+//#region Reduce but Grow
 // // Link ==> https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
 // function grow(x) {
 //     // let result = 1;
@@ -752,5 +752,34 @@
 //     // return x.map( (num) => num + num )
 // }
 // console.log(maps([1, 2, 3]));
+//#endregion
+
+
+//#region Fake Binary
+    //Link ==> https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
+    // function fakeBin(x){
+    //     return x.split("").map( (num) => num >= 5 ? 1 : 0).join("")
+    // }
+    // console.log(fakeBin('45385593107843568'))
+//#endregion
+
+//#region 
+    //Link ==> 
+        
+//#endregion
+
+//#region 
+    //Link ==> 
+        
+//#endregion
+
+//#region 
+    //Link ==> 
+        
+//#endregion
+
+//#region 
+    //Link ==> 
+        
 //#endregion
 
