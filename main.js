@@ -871,3 +871,29 @@
 // console.log(quarterOf(11)); // 4
 // console.log(quarterOf(0)); // invalid
 //#endregion
+
+//#region AddLength
+    // Link ==> https://www.codewars.com/kata/559d2284b5bb6799e9000047/train/javascript
+    function addLength(str) {
+       return str.split(" ").map( (ele)=> `${ele} ${ele.length}` )
+    }
+    console.log(addLength("apple ban")) ; 
+    console.log(addLength("you will win")) ; 
+        
+//#endregion
+
+//#region 
+    // Link ==> 
+//#endregion
+
+//#region 
+    // Link ==> 
+//#endregion
+
+//#region 
+    // Link ==> 
+//#endregion
+
+//#region 
+    // Link ==> 
+//#endregion
