@@ -873,46 +873,55 @@
 //#endregion
 
 //#region AddLength
-    // Link ==> https://www.codewars.com/kata/559d2284b5bb6799e9000047/train/javascript
-    // function addLength(str) {
-    //    return str.split(" ").map( (ele)=> `${ele} ${ele.length}` )
-    // }
-    // console.log(addLength("apple ban")) ; 
-    // console.log(addLength("you will win")) ; 
-        
+// Link ==> https://www.codewars.com/kata/559d2284b5bb6799e9000047/train/javascript
+// function addLength(str) {
+//    return str.split(" ").map( (ele)=> `${ele} ${ele.length}` )
+// }
+// console.log(addLength("apple ban")) ; 
+// console.log(addLength("you will win")) ; 
+
 //#endregion
 
 
 //#region How many light sabers do you own
-    // Link ==> https://www.codewars.com/kata/51f9d93b4095e0a7200001b8/train/javascript
+// Link ==> https://www.codewars.com/kata/51f9d93b4095e0a7200001b8/train/javascript
 
-    // function howManyLightsabersDoYouOwn(name) {
-    //     return name === "Zach" ? 18 : 0
-    //   }
-    //   console.log(howManyLightsabersDoYouOwn())
-    //   console.log(howManyLightsabersDoYouOwn("Adam"))
-    //   console.log(howManyLightsabersDoYouOwn("Zach"))
+// function howManyLightsabersDoYouOwn(name) {
+//     return name === "Zach" ? 18 : 0
+//   }
+//   console.log(howManyLightsabersDoYouOwn())
+//   console.log(howManyLightsabersDoYouOwn("Adam"))
+//   console.log(howManyLightsabersDoYouOwn("Zach"))
 //#endregion
 
 
 //#region  Twice as old
-    // Link ==> https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
-    // function twiceAsOld(dadYearsOld, sonYearsOld) {
-    //   return Math.abs ( dadYearsOld - (sonYearsOld * 2) )
-    // }
-    //   console.log(twiceAsOld(36, 7)) // 22
-    //   console.log(twiceAsOld(55,30)) // 5
+// Link ==> https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
+// function twiceAsOld(dadYearsOld, sonYearsOld) {
+//   return Math.abs ( dadYearsOld - (sonYearsOld * 2) )
+// }
+//   console.log(twiceAsOld(36, 7)) // 22
+//   console.log(twiceAsOld(55,30)) // 5
 //#endregion
 
 //#region  Keep up the hoop 
-    // Link ==> https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145/train/javascript 
-    // function hoopCount (n) {
-    //   return n >=10 ? "Great, now move on to tricks" : "Keep at it until you get it"
-    //  }
-    //  console.log( hoopCount (3)) ; 
-    //  console.log( hoopCount (11)) ; 
+// Link ==> https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145/train/javascript 
+// function hoopCount (n) {
+//   return n >=10 ? "Great, now move on to tricks" : "Keep at it until you get it"
+//  }
+//  console.log( hoopCount (3)) ; 
+//  console.log( hoopCount (11)) ; 
 //#endregion
 
-//#region 
-    // Link ==> 
+//#region Character Recognition 
+// Link ==> https://www.codewars.com/kata/577bd026df78c19bca0002c0/train/javascript
+// function correct(string) {
+//     return string.split("").map((ele) =>
+//         ele === "0" ? "O" : ele === "1" ? "I" : ele === "5" ? "S" : ele
+//     ).join("");
+// }
+// console.log(correct("L0ND0N")); // LONDON
+// console.log(correct("DUBL1N")); // DUBLIN
+// console.log(correct("51NGAP0RE")); // S1NGAP0RE
 //#endregion
+
