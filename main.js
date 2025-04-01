@@ -874,17 +874,26 @@
 
 //#region AddLength
     // Link ==> https://www.codewars.com/kata/559d2284b5bb6799e9000047/train/javascript
-    function addLength(str) {
-       return str.split(" ").map( (ele)=> `${ele} ${ele.length}` )
-    }
-    console.log(addLength("apple ban")) ; 
-    console.log(addLength("you will win")) ; 
+    // function addLength(str) {
+    //    return str.split(" ").map( (ele)=> `${ele} ${ele.length}` )
+    // }
+    // console.log(addLength("apple ban")) ; 
+    // console.log(addLength("you will win")) ; 
         
 //#endregion
 
-//#region 
-    // Link ==> 
+
+//#region How many light sabers do you own
+    // Link ==> https://www.codewars.com/kata/51f9d93b4095e0a7200001b8/train/javascript
+
+    // function howManyLightsabersDoYouOwn(name) {
+    //     return name === "Zach" ? 18 : 0
+    //   }
+    //   console.log(howManyLightsabersDoYouOwn())
+    //   console.log(howManyLightsabersDoYouOwn("Adam"))
+    //   console.log(howManyLightsabersDoYouOwn("Zach"))
 //#endregion
+
 
 //#region 
     // Link ==> 
