@@ -904,8 +904,13 @@
     //   console.log(twiceAsOld(55,30)) // 5
 //#endregion
 
-//#region 
-    // Link ==> 
+//#region  Keep up the hoop 
+    // Link ==> https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145/train/javascript 
+    // function hoopCount (n) {
+    //   return n >=10 ? "Great, now move on to tricks" : "Keep at it until you get it"
+    //  }
+    //  console.log( hoopCount (3)) ; 
+    //  console.log( hoopCount (11)) ; 
 //#endregion
 
 //#region 
