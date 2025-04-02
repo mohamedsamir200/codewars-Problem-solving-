@@ -926,18 +926,18 @@
 //#endregion
 
 //#region How good are you really?
-    // Link ==> https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript
-    // function betterThanAverage(classPoints, yourPoints) {
-    //    const classPoint_avg = classPoints.reduce( (acc , current) => acc + current , 0) / classPoints.length 
-    //    return yourPoints >  classPoint_avg
-    // }
-    // console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75)) // true 
-    // console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)) // false 
+// Link ==> https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript
+// function betterThanAverage(classPoints, yourPoints) {
+//    const classPoint_avg = classPoints.reduce( (acc , current) => acc + current , 0) / classPoints.length 
+//    return yourPoints >  classPoint_avg
+// }
+// console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75)) // true 
+// console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)) // false 
 
 //#endregion
 
 //#region Reversed Words
-    // Link ==> https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
+// Link ==> https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
 //     function reverseWords(str) {
 //         return str.split(" ").map( (word) => word.split("").reverse().join("") ).join(" ")
 // }
@@ -946,34 +946,46 @@
 //#endregion
 
 //#region Calculate BMI
-    // Link ==> https://www.codewars.com/kata/57a429e253ba3381850000fb/train/javascript 
+// Link ==> https://www.codewars.com/kata/57a429e253ba3381850000fb/train/javascript 
 
-    //bmi = weight / height^2
-    // function bmi(weight, height) {
-    //     const result = weight / Math.pow(height , 2) ; 
-    //     if (result <=18.5) return "Underweight" 
-    //     if (result <=25.0) return "Normal" 
-    //     if (result <=30.0) return "Overweight" 
-    //     if (result >30) return "Obese" 
-    //   }
-    //   console.log(bmi(50, 1.80) ) // "Underweight"
-    //   console.log(bmi(80, 1.80) ) // "Normal"
-    //   console.log(bmi(90, 1.80) ) // "Overweight"
-    //   console.log(bmi(100, 1.80) ) // "Obese"
+//bmi = weight / height^2
+// function bmi(weight, height) {
+//     const result = weight / Math.pow(height , 2) ; 
+//     if (result <=18.5) return "Underweight" 
+//     if (result <=25.0) return "Normal" 
+//     if (result <=30.0) return "Overweight" 
+//     if (result >30) return "Obese" 
+//   }
+//   console.log(bmi(50, 1.80) ) // "Underweight"
+//   console.log(bmi(80, 1.80) ) // "Normal"
+//   console.log(bmi(90, 1.80) ) // "Overweight"
+//   console.log(bmi(100, 1.80) ) // "Obese"
 
 //#endregion
 
 //#region Find numbers which are divisible by given number 
-    // Link ==> https://www.codewars.com/kata/55edaba99da3a9c84000003b/train/javascript 
-    // function divisibleBy(numbers, divisor){
-    //     return numbers.filter ( (num) => num % divisor === 0 ) ; 
-    // }
-    // console.log(divisibleBy([1,2,3,4,5,6], 2)) // [2,4,6] 
-    // console.log(divisibleBy([1,2,3,4,5,6], 3)) // [3,6] 
+// Link ==> https://www.codewars.com/kata/55edaba99da3a9c84000003b/train/javascript 
+// function divisibleBy(numbers, divisor){
+//     return numbers.filter ( (num) => num % divisor === 0 ) ; 
+// }
+// console.log(divisibleBy([1,2,3,4,5,6], 2)) // [2,4,6] 
+// console.log(divisibleBy([1,2,3,4,5,6], 3)) // [3,6] 
 
 //#endregion
 
-//#region 
-    // Link ==> 
+//#region  Powers of 2
+// Link ==> https://www.codewars.com/kata/57a083a57cb1f31db7000028/train/javascript 
+// function powersOfTwo(n) {
+//     // var result = [];
+//     // for (var i = 0; i <= n; i++) {
+//     //   result.push(Math.pow(2, i));
+//     // }
+//     // return result;
+//     "=============================";
+//     //  return Array.from({ length: n + 1 }, (_, i) => 2 ** i);
 
+// }
+// console.log(powersOfTwo(0));
+// console.log(powersOfTwo(1));
+// console.log(powersOfTwo(2));
 //#endregion
