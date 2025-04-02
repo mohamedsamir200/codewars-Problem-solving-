@@ -963,8 +963,13 @@
 
 //#endregion
 
-//#region 
-    // Link ==> 
+//#region Find numbers which are divisible by given number 
+    // Link ==> https://www.codewars.com/kata/55edaba99da3a9c84000003b/train/javascript 
+    // function divisibleBy(numbers, divisor){
+    //     return numbers.filter ( (num) => num % divisor === 0 ) ; 
+    // }
+    // console.log(divisibleBy([1,2,3,4,5,6], 2)) // [2,4,6] 
+    // console.log(divisibleBy([1,2,3,4,5,6], 3)) // [3,6] 
 
 //#endregion
 
