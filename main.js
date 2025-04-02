@@ -945,8 +945,21 @@
 //       console.log(reverseWords("double  spaces" )) // "elbuod  secaps" 
 //#endregion
 
-//#region 
-    // Link ==> 
+//#region Calculate BMI
+    // Link ==> https://www.codewars.com/kata/57a429e253ba3381850000fb/train/javascript 
+
+    //bmi = weight / height^2
+    // function bmi(weight, height) {
+    //     const result = weight / Math.pow(height , 2) ; 
+    //     if (result <=18.5) return "Underweight" 
+    //     if (result <=25.0) return "Normal" 
+    //     if (result <=30.0) return "Overweight" 
+    //     if (result >30) return "Obese" 
+    //   }
+    //   console.log(bmi(50, 1.80) ) // "Underweight"
+    //   console.log(bmi(80, 1.80) ) // "Normal"
+    //   console.log(bmi(90, 1.80) ) // "Overweight"
+    //   console.log(bmi(100, 1.80) ) // "Obese"
 
 //#endregion
 
