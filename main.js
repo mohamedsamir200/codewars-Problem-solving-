@@ -936,9 +936,13 @@
 
 //#endregion
 
-//#region 
-    // Link ==> 
-
+//#region Reversed Words
+    // Link ==> https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
+//     function reverseWords(str) {
+//         return str.split(" ").map( (word) => word.split("").reverse().join("") ).join(" ")
+// }
+//       console.log(reverseWords("This is an example!")) // "sihT si na !elpmaxe" 
+//       console.log(reverseWords("double  spaces" )) // "elbuod  secaps" 
 //#endregion
 
 //#region 
