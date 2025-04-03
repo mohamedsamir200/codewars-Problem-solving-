@@ -1010,8 +1010,19 @@
 
 // //#endregion
 
-//#region  
-    // Link ==> 
+//#region  Expressions Matter 
+    // Link ==> https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/train/javascript 
+    // function expressionMatter(a, b, c) {
+    //     return Math.max(
+    //         a + b + c , 
+    //         a * b * c ,
+    //         a * ( b + c) , 
+    //         c * ( a + b) , 
+    //     )
+    //   }
+    //   console.log(expressionMatter(2, 1, 1)) // 4 
+    //   console.log(expressionMatter(2, 1, 2)) // 6  
+    //   console.log(expressionMatter(5, 1, 3)) // 6  
 //#endregion
 
 //#region  
