@@ -991,13 +991,13 @@
 //#endregion
 
 //#region  Sum The Strings
-    // Link ==> https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript 
-    // function sumStr(a,b) {
-    //     return (Number (a)  + Number (b)).toString()
-    // }
-    // console.log(sumStr("4","5")) // 9 
-    // console.log(sumStr("5","5")) // 10
-    // console.log(sumStr("2","")) // 5 
+// Link ==> https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript 
+// function sumStr(a,b) {
+//     return (Number (a)  + Number (b)).toString()
+// }
+// console.log(sumStr("4","5")) // 9 
+// console.log(sumStr("5","5")) // 10
+// console.log(sumStr("2","")) // 5 
 //#endregion
 
 // //#region  Sort and Star
@@ -1011,30 +1011,44 @@
 // //#endregion
 
 //#region  Expressions Matter 
-    // Link ==> https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/train/javascript 
-    // function expressionMatter(a, b, c) {
-    //     return Math.max(
-    //         a + b + c , 
-    //         a * b * c ,
-    //         a * ( b + c) , 
-    //         c * ( a + b) , 
-    //     )
-    //   }
-    //   console.log(expressionMatter(2, 1, 1)) // 4 
-    //   console.log(expressionMatter(2, 1, 2)) // 6  
-    //   console.log(expressionMatter(5, 1, 3)) // 6  
+// Link ==> https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/train/javascript 
+// function expressionMatter(a, b, c) {
+//     return Math.max(
+//         a + b + c , 
+//         a * b * c ,
+//         a * ( b + c) , 
+//         c * ( a + b) , 
+//     )
+//   }
+//   console.log(expressionMatter(2, 1, 1)) // 4 
+//   console.log(expressionMatter(2, 1, 2)) // 6  
+//   console.log(expressionMatter(5, 1, 3)) // 6  
 //#endregion
 
 //#region  Is it even
-    // Link ==> https://www.codewars.com/kata/555a67db74814aa4ee0001b5/train/javascript 
-    // function testEven(n) {
-    //     return n % 2 == 0
-    // }
-    // console.log(testEven(0)) // true 
-    // console.log(testEven(0.5)) // false 
-    // console.log(testEven(-4)) // false 
+// Link ==> https://www.codewars.com/kata/555a67db74814aa4ee0001b5/train/javascript 
+// function testEven(n) {
+//     return n % 2 == 0
+// }
+// console.log(testEven(0)) // true 
+// console.log(testEven(0.5)) // false 
+// console.log(testEven(-4)) // false 
 //#endregion
 
-//#region  
-    // Link ==> 
+//#region  Filter out the geese
+// Link ==> https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/javascript 
+// function gooseFilter(birds) {
+//     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+//     // const result = []
+//     // for (let i = 0; i < birds.length; i++) {
+//     //     if (!geese.includes(birds[i])) {
+//     //         result.push(birds[i])
+//     //     }
+
+//     // }
+//     // return result
+//     "================================";
+//     return birds.filter((ele) => !geese.includes(ele));
+// };
+// console.log(gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"])); // ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
 //#endregion
