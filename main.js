@@ -990,8 +990,14 @@
 // console.log(powersOfTwo(2));
 //#endregion
 
-//#region  
-    // Link ==> 
+//#region  Sum The Strings
+    // Link ==> https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript 
+    // function sumStr(a,b) {
+    //     return (Number (a)  + Number (b)).toString()
+    // }
+    // console.log(sumStr("4","5")) // 9 
+    // console.log(sumStr("5","5")) // 10
+    // console.log(sumStr("2","")) // 5 
 //#endregion
 
 //#region  
