@@ -125,7 +125,6 @@
 
 // console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]));
 
-
 //#endregion
 
 //#region Double Char
@@ -167,7 +166,6 @@
 // // console.log(basicOp('/', 49, 7));
 
 //#endregion
-
 
 //#region To square(root) or not to square(root)
 /* Link ==> https://www.codewars.com/kata/57f6ad55cca6e045d2000627/train/javascript */
@@ -274,7 +272,6 @@
 // console.log(numberToString(-100 ))
 //#endregion
 
-
 //#region  Calculate average
 /* Link ==> https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/train/javascript */
 
@@ -294,7 +291,6 @@
 // console.log(findAverage([1, 2, 3, 4]));
 //#endregion
 
-
 //#region Convert a String to a Number
 // Link ==> https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
 // const stringToNumber = function (str) {
@@ -307,7 +303,6 @@
 // };
 // console.log(stringToNumber("1234"));
 //#endregion
-
 
 //#region Count The Monkeys
 // Link ==>  https://www.codewars.com/kata/56f69d9f9400f508fb000ba7/train/javascript
@@ -327,7 +322,6 @@
 // console.log(monkeyCount(5));
 // console.log(monkeyCount(1));
 //#endregion
-
 
 //#region Welcome
 // Link ==>  https://www.codewars.com/kata/577ff15ad648a14b780000e7/train/javascript
@@ -372,7 +366,6 @@
 // console.log(greet(""));
 //#endregion
 
-
 //#region Sentence Smash
 // Link ==> https://www.codewars.com/kata/53dc23c68a0c93699800041d/train/javascript
 // function smash(words) {
@@ -380,7 +373,6 @@
 // };
 // console.log(smash(['hello', 'world', 'this', 'is', 'great']));
 //#endregion
-
 
 //#region Switch It Up
 // Link ==> https://www.codewars.com/kata/5808dcb8f0ed42ae34000031/train/javascript
@@ -402,7 +394,6 @@
 // console.log(switchItUp(8));
 //#endregion
 
-
 //#region  Do I Get A Bonus
 // Link ==> https://www.codewars.com/kata/56f6ad906b88de513f000d96/train/javascript
 // function bonusTime(salary, bonus) {
@@ -412,7 +403,6 @@
 // console.log(bonusTime(8000, true));
 // console.log(bonusTime(8000, false));
 //#endregion
-
 
 //#region Exclamation marks
 // Link ==> https://www.codewars.com/kata/57fae964d80daa229d000126/train/javascript
@@ -426,7 +416,6 @@
 // console.log(remove("Hi!!!"));
 // console.log(remove("Hi! Hi!"));
 //#endregion
-
 
 //#region Are You Playing Banjo
 // Link ==> https://www.codewars.com/kata/53af2b8861023f1d88000832/train/javascript
@@ -566,7 +555,6 @@
 
 // }
 
-
 // console.log(lovefunc(1, 4));
 // console.log(lovefunc(2, 2));
 //#endregion
@@ -695,7 +683,7 @@
 //#endregion
 
 //#region Remove First and Last Character
-// Link ==> https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript 
+// Link ==> https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript
 // function removeChar(str){
 //    return str.slice(1 , -1)
 
@@ -703,18 +691,17 @@
 //    console.log(removeChar("Hello")) // ell
 //#endregion
 
-//#region Square(n) Sum 
-// Link ==> https://www.codewars.com/kata/515e271a311df0350d00000f/train/javascript 
+//#region Square(n) Sum
+// Link ==> https://www.codewars.com/kata/515e271a311df0350d00000f/train/javascript
 // function squareSum(numbers) {
 //     return numbers.map((num) => Math.pow(num, 2)).reduce((acc, current) => acc + current, 0);
 // }
-// console.log(squareSum([0, 3, 4, 5])); // 50 
-// console.log(squareSum([1, 2, 2])); // 9 
+// console.log(squareSum([0, 3, 4, 5])); // 50
+// console.log(squareSum([1, 2, 2])); // 9
 //#endregion
 
-
-//#region Find the smallest integer in the array 
-// Link ==> https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/javascript 
+//#region Find the smallest integer in the array
+// Link ==> https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/javascript
 // function findSmallestInt(arr) {
 //     // return Math.min(...arr);
 //     "==================================";
@@ -725,8 +712,8 @@
 // console.log(findSmallestInt([34, -345, -1, 100]));
 //#endregion
 
-//#region Is n divisible by x and y  
-// Link ==> https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript 
+//#region Is n divisible by x and y
+// Link ==> https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
 // function isDivisible(n, x, y) {
 //     // if (n % x == 0 && n % y == 0) {
 //     //     return true;
@@ -740,8 +727,8 @@
 // console.log(isDivisible(5, 3, 4));
 //#endregion
 
-//#region Beginner Lost Without a Map  
-// Link ==> https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript 
+//#region Beginner Lost Without a Map
+// Link ==> https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
 // function maps(x) {
 //     const result = [];
 //     for (let i = 0; i < x.length; i++) {
@@ -754,7 +741,6 @@
 // console.log(maps([1, 2, 3]));
 //#endregion
 
-
 //#region Fake Binary
 //Link ==> https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
 // function fakeBin(x){
@@ -766,7 +752,7 @@
 //#region Sum Arrays
 //Link ==> https://www.codewars.com/kata/53dc54212259ed3d4f00071c/train/javascript
 // function sum (numbers) {
-//     if (numbers.length === 0) return 0 ; 
+//     if (numbers.length === 0) return 0 ;
 //     return numbers.reduce( (acc , current) => acc + current , 0)
 //   }
 //   console.log(sum([1, 5.2, 4, 0, -1]))
@@ -775,14 +761,13 @@
 //#region Simple multiplication
 //Link ==> https://www.codewars.com/kata/583710ccaa6717322c000105/train/javascript
 //     function simpleMultiplication(number) {
-//       return number % 2 == 0 ? number * 8 : number * 9 
+//       return number % 2 == 0 ? number * 8 : number * 9
 //     }
 // console.log(simpleMultiplication(2))  // 2*8 = 16
 // console.log(simpleMultiplication(1))   // 1*9 = 9
 // console.log(simpleMultiplication(8))   // 8*8 =64
 
 //#endregion
-
 
 //#region MakeUpperCase
 //Link ==> https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
@@ -814,13 +799,12 @@
 // function feast(beast, dish) {
 //     return beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1] ? true : false
 // }
-//     console.log(feast("great blue heron", "garlic naan")) // true 
-//     console.log(feast("chickadee", "chocolate cake")) // true 
+//     console.log(feast("great blue heron", "garlic naan")) // true
+//     console.log(feast("chickadee", "chocolate cake")) // true
 //     console.log(feast("brown bear", "bear claw")) // false
 //#endregion
 
-
-//#region  Thinkful Logic Drills Traffic light 
+//#region  Thinkful Logic Drills Traffic light
 // Link ==> https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript
 //     function updateLight(current) {
 // //   return current === "green" ? "yellow" : current === "yellow" ? "red" : current === "red" ? "green" : ""
@@ -828,16 +812,14 @@
 // // if (current === "yellow") return "red"
 // // if (current === "red") return "green"
 
-
 // }
 //       console.log(updateLight("green")) // yellow
 //       console.log(updateLight("yellow")) // red
 //       console.log(updateLight("red")) // green
 //#endregion
 
-
-//#region  L1 Set Alarm 
-// Link ==> https://www.codewars.com/kata/568dcc3c7f12767a62000038/train/javascript 
+//#region  L1 Set Alarm
+// Link ==> https://www.codewars.com/kata/568dcc3c7f12767a62000038/train/javascript
 // function setAlarm(employed, vacation){
 //     return employed && !vacation
 // }
@@ -847,7 +829,7 @@
 //#endregion
 
 //#region  Quarter of the year
-// Link ==> https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/javascript 
+// Link ==> https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/javascript
 // const quarterOf = (month) => {
 //     // switch (month) {
 //     //     case 1: case 2: case 3:
@@ -877,11 +859,10 @@
 // function addLength(str) {
 //    return str.split(" ").map( (ele)=> `${ele} ${ele.length}` )
 // }
-// console.log(addLength("apple ban")) ; 
-// console.log(addLength("you will win")) ; 
+// console.log(addLength("apple ban")) ;
+// console.log(addLength("you will win")) ;
 
 //#endregion
-
 
 //#region How many light sabers do you own
 // Link ==> https://www.codewars.com/kata/51f9d93b4095e0a7200001b8/train/javascript
@@ -894,7 +875,6 @@
 //   console.log(howManyLightsabersDoYouOwn("Zach"))
 //#endregion
 
-
 //#region  Twice as old
 // Link ==> https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
 // function twiceAsOld(dadYearsOld, sonYearsOld) {
@@ -904,16 +884,16 @@
 //   console.log(twiceAsOld(55,30)) // 5
 //#endregion
 
-//#region  Keep up the hoop 
-// Link ==> https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145/train/javascript 
+//#region  Keep up the hoop
+// Link ==> https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145/train/javascript
 // function hoopCount (n) {
 //   return n >=10 ? "Great, now move on to tricks" : "Keep at it until you get it"
 //  }
-//  console.log( hoopCount (3)) ; 
-//  console.log( hoopCount (11)) ; 
+//  console.log( hoopCount (3)) ;
+//  console.log( hoopCount (11)) ;
 //#endregion
 
-//#region Character Recognition 
+//#region Character Recognition
 // Link ==> https://www.codewars.com/kata/577bd026df78c19bca0002c0/train/javascript
 // function correct(string) {
 //     return string.split("").map((ele) =>
@@ -928,11 +908,11 @@
 //#region How good are you really?
 // Link ==> https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript
 // function betterThanAverage(classPoints, yourPoints) {
-//    const classPoint_avg = classPoints.reduce( (acc , current) => acc + current , 0) / classPoints.length 
+//    const classPoint_avg = classPoints.reduce( (acc , current) => acc + current , 0) / classPoints.length
 //    return yourPoints >  classPoint_avg
 // }
-// console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75)) // true 
-// console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)) // false 
+// console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75)) // true
+// console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)) // false
 
 //#endregion
 
@@ -941,20 +921,20 @@
 //     function reverseWords(str) {
 //         return str.split(" ").map( (word) => word.split("").reverse().join("") ).join(" ")
 // }
-//       console.log(reverseWords("This is an example!")) // "sihT si na !elpmaxe" 
-//       console.log(reverseWords("double  spaces" )) // "elbuod  secaps" 
+//       console.log(reverseWords("This is an example!")) // "sihT si na !elpmaxe"
+//       console.log(reverseWords("double  spaces" )) // "elbuod  secaps"
 //#endregion
 
 //#region Calculate BMI
-// Link ==> https://www.codewars.com/kata/57a429e253ba3381850000fb/train/javascript 
+// Link ==> https://www.codewars.com/kata/57a429e253ba3381850000fb/train/javascript
 
 //bmi = weight / height^2
 // function bmi(weight, height) {
-//     const result = weight / Math.pow(height , 2) ; 
-//     if (result <=18.5) return "Underweight" 
-//     if (result <=25.0) return "Normal" 
-//     if (result <=30.0) return "Overweight" 
-//     if (result >30) return "Obese" 
+//     const result = weight / Math.pow(height , 2) ;
+//     if (result <=18.5) return "Underweight"
+//     if (result <=25.0) return "Normal"
+//     if (result <=30.0) return "Overweight"
+//     if (result >30) return "Obese"
 //   }
 //   console.log(bmi(50, 1.80) ) // "Underweight"
 //   console.log(bmi(80, 1.80) ) // "Normal"
@@ -963,18 +943,18 @@
 
 //#endregion
 
-//#region Find numbers which are divisible by given number 
-// Link ==> https://www.codewars.com/kata/55edaba99da3a9c84000003b/train/javascript 
+//#region Find numbers which are divisible by given number
+// Link ==> https://www.codewars.com/kata/55edaba99da3a9c84000003b/train/javascript
 // function divisibleBy(numbers, divisor){
-//     return numbers.filter ( (num) => num % divisor === 0 ) ; 
+//     return numbers.filter ( (num) => num % divisor === 0 ) ;
 // }
-// console.log(divisibleBy([1,2,3,4,5,6], 2)) // [2,4,6] 
-// console.log(divisibleBy([1,2,3,4,5,6], 3)) // [3,6] 
+// console.log(divisibleBy([1,2,3,4,5,6], 2)) // [2,4,6]
+// console.log(divisibleBy([1,2,3,4,5,6], 3)) // [3,6]
 
 //#endregion
 
 //#region  Powers of 2
-// Link ==> https://www.codewars.com/kata/57a083a57cb1f31db7000028/train/javascript 
+// Link ==> https://www.codewars.com/kata/57a083a57cb1f31db7000028/train/javascript
 // function powersOfTwo(n) {
 //     // var result = [];
 //     // for (var i = 0; i <= n; i++) {
@@ -991,17 +971,17 @@
 //#endregion
 
 //#region  Sum The Strings
-// Link ==> https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript 
+// Link ==> https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript
 // function sumStr(a,b) {
 //     return (Number (a)  + Number (b)).toString()
 // }
-// console.log(sumStr("4","5")) // 9 
+// console.log(sumStr("4","5")) // 9
 // console.log(sumStr("5","5")) // 10
-// console.log(sumStr("2","")) // 5 
+// console.log(sumStr("2","")) // 5
 //#endregion
 
 // //#region  Sort and Star
-//     // Link ==> https://www.codewars.com/kata/57cfdf34902f6ba3d300001e/train/javascript 
+//     // Link ==> https://www.codewars.com/kata/57cfdf34902f6ba3d300001e/train/javascript
 //     function twoSort(s) {
 //         return s.sort()[0].split("").join("***")
 //     }
@@ -1010,33 +990,33 @@
 
 // //#endregion
 
-//#region  Expressions Matter 
-// Link ==> https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/train/javascript 
+//#region  Expressions Matter
+// Link ==> https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/train/javascript
 // function expressionMatter(a, b, c) {
 //     return Math.max(
-//         a + b + c , 
+//         a + b + c ,
 //         a * b * c ,
-//         a * ( b + c) , 
-//         c * ( a + b) , 
+//         a * ( b + c) ,
+//         c * ( a + b) ,
 //     )
 //   }
-//   console.log(expressionMatter(2, 1, 1)) // 4 
-//   console.log(expressionMatter(2, 1, 2)) // 6  
-//   console.log(expressionMatter(5, 1, 3)) // 6  
+//   console.log(expressionMatter(2, 1, 1)) // 4
+//   console.log(expressionMatter(2, 1, 2)) // 6
+//   console.log(expressionMatter(5, 1, 3)) // 6
 //#endregion
 
 //#region  Is it even
-// Link ==> https://www.codewars.com/kata/555a67db74814aa4ee0001b5/train/javascript 
+// Link ==> https://www.codewars.com/kata/555a67db74814aa4ee0001b5/train/javascript
 // function testEven(n) {
 //     return n % 2 == 0
 // }
-// console.log(testEven(0)) // true 
-// console.log(testEven(0.5)) // false 
-// console.log(testEven(-4)) // false 
+// console.log(testEven(0)) // true
+// console.log(testEven(0.5)) // false
+// console.log(testEven(-4)) // false
 //#endregion
 
 //#region  Filter out the geese
-// Link ==> https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/javascript 
+// Link ==> https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/javascript
 // function gooseFilter(birds) {
 //     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 //     // const result = []
@@ -1054,36 +1034,43 @@
 //#endregion
 
 //#region  What is between?
-    // Link ==> https://www.codewars.com/kata/55ecd718f46fba02e5000029/train/javascript 
-    // function between(a, b) {
-    //     // const result = [] ; 
-    //     // for (let i = a; i <= b; i++) {
-    //     //     result.push(i)
-    //     // }
-    //     // return result ;
-    //     "============================" ; 
-    //     return Array(b - a + 1).fill(a).map ( (num , index) => num + index )
-    //   }
-    //   console.log(between(1, 4)) ; 
-    //   console.log(between(-2, 2)) ; 
+// Link ==> https://www.codewars.com/kata/55ecd718f46fba02e5000029/train/javascript
+// function between(a, b) {
+//     // const result = [] ;
+//     // for (let i = a; i <= b; i++) {
+//     //     result.push(i)
+//     // }
+//     // return result ;
+//     "============================" ;
+//     return Array(b - a + 1).fill(a).map ( (num , index) => num + index )
+//   }
+//   console.log(between(1, 4)) ;
+//   console.log(between(-2, 2)) ;
 //#endregion
 
 //#region  Grasshopper - Debug sayHello
-    // Link ==> https://www.codewars.com/kata/5625618b1fe21ab49f00001f/train/javascript
-    // function sayHello(name) {
-    //     return `Hello, ${name}`
-    //   }
-    //   console.log(sayHello("Mohamed"))
+// Link ==> https://www.codewars.com/kata/5625618b1fe21ab49f00001f/train/javascript
+// function sayHello(name) {
+//     return `Hello, ${name}`
+//   }
+//   console.log(sayHello("Mohamed"))
 //#endregion
 
-//#region  
-    // Link ==> 
+//#region   Grasshopper Terminal game move function
+// Link ==> https://www.codewars.com/kata/563a631f7cbbc236cf0000c2/train/javascript
+// function move(position, roll) {
+//     return (roll * 2) + position;
+// }
+// console.log(move(0, 4)); // 8  
+// console.log(move(3, 6)); // 8  
+
 //#endregion
 
-//#region  
-    // Link ==> 
+
+//#region
+// Link ==>
 //#endregion
 
-//#region  
-    // Link ==> 
+//#region
+// Link ==>
 //#endregion
