@@ -1053,8 +1053,19 @@
 // console.log(gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"])); // ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
 //#endregion
 
-//#region  
-    // Link ==> 
+//#region  What is between?
+    // Link ==> https://www.codewars.com/kata/55ecd718f46fba02e5000029/train/javascript 
+    // function between(a, b) {
+    //     // const result = [] ; 
+    //     // for (let i = a; i <= b; i++) {
+    //     //     result.push(i)
+    //     // }
+    //     // return result ;
+    //     "============================" ; 
+    //     return Array(b - a + 1).fill(a).map ( (num , index) => num + index )
+    //   }
+    //   console.log(between(1, 4)) ; 
+    //   console.log(between(-2, 2)) ; 
 //#endregion
 
 //#region  
