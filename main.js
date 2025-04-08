@@ -1099,9 +1099,22 @@
 
 //#endregion
 
-//#region
-// Link ==>
-
+//#region Find Multiples of a Number
+// Link ==> https://www.codewars.com/kata/58ca658cc0d6401f2700045f/train/javascript
+// function findMultiples(integer, limit) {
+//   let result = [];
+//   for (let i = 1; i <= limit; i++) {
+//     let multiply = integer * i;
+//     if (multiply > limit) {
+//       break ; 
+//     } else {
+//         result.push (multiply)
+//     }
+//   }
+//   return result;
+// }
+// console.log(findMultiples(1, 2));
+// console.log(findMultiples(5, 25));
 //#endregion
 
 //#region
