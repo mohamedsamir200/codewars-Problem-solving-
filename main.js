@@ -1106,7 +1106,7 @@
 //   for (let i = 1; i <= limit; i++) {
 //     let multiply = integer * i;
 //     if (multiply > limit) {
-//       break ; 
+//       break ;
 //     } else {
 //         result.push (multiply)
 //     }
@@ -1117,8 +1117,22 @@
 // console.log(findMultiples(5, 25));
 //#endregion
 
-//#region
-// Link ==>
+//#region Remove duplicates from list
+// Link ==> https://www.codewars.com/kata/57a5b0dfcf1fa526bb000118/train/javascript
+// function distinct(a) {
+//   //  return Array.from (new Set (a))
+//   "==================================";
+//   // return a.filter((ele, index, arr) => index == arr.indexOf(ele));
+//   "==================================";
+// //   const unique = [];
+// //   for (let i = 0; i < a.length; i++) {
+// //     if (!unique.includes(a[i])) {
+// //       unique.push(a[i]);
+// //     }
+// //   }
+// //   return unique;
+// }
+// console.log(distinct([1, 2, 1, 1, 3, 2])); //  [1, 2, 3]
 
 //#endregion
 
