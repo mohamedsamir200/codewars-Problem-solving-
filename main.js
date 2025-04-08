@@ -1148,14 +1148,28 @@
 //     }
 //     return sum;
 //   }
-  
 
 // console.log(sumMul(2, 9)); // 2 + 4 + 6 + 8 = 20
 // console.log(sumMul(3, 13)); // 3 + 6 + 9 + 12 = 30
 
 //#endregion
 
-//#region
-// Link ==>
+//#region Name on billboard
+// Link ==> https://www.codewars.com/kata/570e8ec4127ad143660001fd/train/javascript
+// function billboard(name, price = 30) {
+//   // return name.length * price;
+//   "=============================";
+//   // ==> don't use " * " ;
+// //   let result = 0;
+// //   for (let i = 0; i < name.length; i++) {
+// //     result += price;
+// //   }
+// //   return result;
+// "=============================";
+// // return name.split("").reduce( (acc , _) => acc + price   , 0 )
+
+// }
+// console.log(billboard("Jeong-Ho Aristotelis")); // chars 20 * default Price 30 = 600
+// console.log(billboard("Hadufuns John", 20)); // chars 13 * Price 20 =  260
 
 //#endregion
