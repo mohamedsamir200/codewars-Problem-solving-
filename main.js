@@ -1061,18 +1061,17 @@
 // function move(position, roll) {
 //     return (roll * 2) + position;
 // }
-// console.log(move(0, 4)); // 8  
-// console.log(move(3, 6)); // 8  
+// console.log(move(0, 4)); // 8
+// console.log(move(3, 6)); // 8
 
 //#endregion
 
-
-//#region   
+//#region
 // Link ==>
 //#endregion
 
-//#region  Grasshopper Messi goals function 
-// Link ==> https://www.codewars.com/kata/55f73be6e12baaa5900000d4/train/javascript 
+//#region  Grasshopper Messi goals function
+// Link ==> https://www.codewars.com/kata/55f73be6e12baaa5900000d4/train/javascript
 // function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 //     return laLigaGoals + copaDelReyGoals + championsLeagueGoals
 // }
@@ -1080,27 +1079,42 @@
 // console.log(goals(43, 10, 5)) // 58
 //#endregion
 
-//#region   
-    // Link ==> 
+//#region Stringy Strings
+// Link ==>  https://www.codewars.com/kata/563b74ddd19a3ad462000054/train/javascript
+// function stringy(size) {
+// //   let result = "";
+// //   for (let i = 1; i <= size; i++) {
+// //     if (i % 2 === 0) {
+// //       result += "0";
+// //     } else {
+// //       result += "1";
+// //     }
+// //   }
+// //   return result;
+// "=====================================" ;
+// return Array.from ( {length : size} , (_ , index) => (index + 1) % 2 === 0 ? "0" : "1" ).join("")
+// }
+
+// console.log(stringy("12"));
 
 //#endregion
 
-//#region   
-    // Link ==> 
-        
+//#region
+// Link ==>
+
 //#endregion
 
-//#region   
-    // Link ==> 
-        
+//#region
+// Link ==>
+
 //#endregion
 
-//#region   
-    // Link ==> 
-        
+//#region
+// Link ==>
+
 //#endregion
 
-//#region   
-    // Link ==> 
-        
+//#region
+// Link ==>
+
 //#endregion
