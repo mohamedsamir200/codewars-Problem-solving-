@@ -1212,7 +1212,7 @@
 //#region Parse nice int from char problem
 // Link ==> https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1/train/javascript
 // function getAge(inputString) {
-// //   return parseInt(inputString); 
+// //   return parseInt(inputString);
 // return +inputString.match(/\d/)[0]
 
 // }
@@ -1220,7 +1220,13 @@
 // console.log(getAge("9 years old")); // 9
 //#endregion
 
-//#region
-// Link ==>
+//#region  Grasshopper - Check for factor
+// Link ==> https://www.codewars.com/kata/55cbc3586671f6aa070000fb/train/javascript
+// function checkForFactor(base, factor) {
+//   return base % factor === 0;
+// }
+// console.log(checkForFactor(9, 2)); // false
+// console.log(checkForFactor(10, 2)); // true
 
 //#endregion
+
