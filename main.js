@@ -1196,8 +1196,16 @@
 
 //#endregion
 
-//#region
-// Link ==>
+//#region Lario and Muigi Pipe Problem
+// Link ==> https://www.codewars.com/kata/56b29582461215098d00000f/train/javascript
+// function pipeFix(numbers) {
+//   const result = [];
+//   for (let i = numbers[0]; i <= numbers[numbers.length - 1]; i++) {
+//     result.push(i);
+//   }
+//   return result;
+// }
+// console.log(pipeFix([1, 2, 3, 5, 6, 8, 9]));
 
 //#endregion
 
