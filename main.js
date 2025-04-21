@@ -1179,14 +1179,20 @@
 // function sayHello(name, city, state) {
 //     return `Hello, ${name.join(" ")}! Welcome to ${city} , ${state}!`
 // }
-// console.log(sayHello(['John', 'Smith'], 'Phoenix', 'Arizona')) 
+// console.log(sayHello(['John', 'Smith'], 'Phoenix', 'Arizona'))
 // // Hello, John Smith! Welcome to Phoenix, Arizona!
-// console.log(sayHello(['Wallace','Russel','Osbourne'],'Albany','New York')) 
+// console.log(sayHello(['Wallace','Russel','Osbourne'],'Albany','New York'))
 
 //#endregion
 
-//#region
-// Link ==>
+//#region Remove First and Last Character Part Two
+// Link ==> https://www.codewars.com/kata/570597e258b58f6edc00230d/train/javascript
+// function array(string) {
+//  return string.split(",").length < 3 ? null: string.split(",").slice(1, -1).join(" ");
+// }
+// console.log(array(""));
+// console.log(array("1,2,3,4"));
+// console.log(array("A1,B2,C3,D4,E5"));
 
 //#endregion
 
