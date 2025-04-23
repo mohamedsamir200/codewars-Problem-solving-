@@ -1283,8 +1283,13 @@
 // ); // 'I smell a series!'
 //#endregion
 
+//#region Name Shuffler
 
-//#region
-
-// Link ==>
+// Link ==> https://www.codewars.com/kata/559ac78160f0be07c200005a/train/javascript
+// function nameShuffler(str) {
+//   //   return [str.split(" ")[1], str.split(" ")[0]].join(" ");
+//   return str.split(" ").reverse().join(" ");
+// }
+// console.log(nameShuffler("john McClane")); // 'McClane john'
+// console.log(nameShuffler("Mary jeggins")); // 'jeggins Mary'
 //#endregion
