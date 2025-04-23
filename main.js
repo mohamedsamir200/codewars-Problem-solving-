@@ -1245,8 +1245,13 @@
 // console.log(enough(100, 60, 50)); // 10
 //#endregion
 
-//#region
-// Link ==>
+//#region Grasshopper - Personalized Message
+// Link ==> https://www.codewars.com/kata/5772da22b89313a4d50012f7/train/javascript
+// function greet(name, owner) {
+//  return name === owner ? "Hello boss" : "Hello guest"
+// }
+// console.log(greet("Daniel", "Daniel")); // 'Hello boss'
+// console.log(greet("Greg", "Daniel")); //  'Hello guest'
 //#endregion
 
 //#region
