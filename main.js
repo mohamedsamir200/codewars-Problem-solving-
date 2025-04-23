@@ -1,4 +1,4 @@
-// CodeWars ==> Kata 8 - solution //
+"============================= Start Kata 8 =================================" ;
 
 //#region String-repeat
 /* Link => https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/javascript */
@@ -1293,3 +1293,6 @@
 // console.log(nameShuffler("john McClane")); // 'McClane john'
 // console.log(nameShuffler("Mary jeggins")); // 'jeggins Mary'
 //#endregion
+
+"======================= End Kata 8 ===========================" ; 
+
