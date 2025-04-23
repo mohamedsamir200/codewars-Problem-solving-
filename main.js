@@ -1254,8 +1254,14 @@
 // console.log(greet("Greg", "Daniel")); //  'Hello guest'
 //#endregion
 
-//#region
-// Link ==>
+//#region Area or Perimeter
+
+// Link ==> https://www.codewars.com/kata/5ab6538b379d20ad880000ab/train/javascript
+// const areaOrPerimeter = function (l, w) {
+//   return l === w ? l * w : (l + w) * 2;
+// };
+// console.log(areaOrPerimeter(3, 3)); // 9 square (l * W)
+// console.log(areaOrPerimeter(6, 10)); // 32 rectangle (l + w) * 2
 //#endregion
 
 //#region
