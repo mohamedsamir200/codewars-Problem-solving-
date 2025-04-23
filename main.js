@@ -1265,15 +1265,26 @@
 //#endregion
 
 //#region Well of Ideas Easy Version
-// Link ==> https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript
-function well(x) {}
-console.log(well(["bad", "bad", "bad"])); // 'Fail!'
-console.log(well(["good", "bad", "bad", "bad", "bad"])); // 'Publish!'
-console.log(
-  well(["good", "bad", "bad", "bad", "bad", "good", "bad", "bad", "good"])
-); // 'I smell a series!'
+// Link ==> https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript ;
+// function well(x) {
+//   const filterArr = x.filter((idea) => idea === "good");
+//   if (filterArr == 0) {
+//     return "Fail";
+//   } else if (filterArr.length <= 2) {
+//     return "Publish";
+//   } else {
+//     return "I smell a series!";
+//   }
+// }
+// console.log(well(["bad", "bad", "bad"])); // 'Fail!'
+// console.log(well(["good", "bad", "bad", "bad", "bad"])); // 'Publish!'
+// console.log(
+//   well(["good", "bad", "bad", "bad", "bad", "good", "bad", "bad", "good"])
+// ); // 'I smell a series!'
 //#endregion
 
+
 //#region
+
 // Link ==>
 //#endregion
