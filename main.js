@@ -1264,8 +1264,14 @@
 // console.log(areaOrPerimeter(6, 10)); // 32 rectangle (l + w) * 2
 //#endregion
 
-//#region
-// Link ==>
+//#region Well of Ideas Easy Version
+// Link ==> https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript
+function well(x) {}
+console.log(well(["bad", "bad", "bad"])); // 'Fail!'
+console.log(well(["good", "bad", "bad", "bad", "bad"])); // 'Publish!'
+console.log(
+  well(["good", "bad", "bad", "bad", "bad", "good", "bad", "bad", "good"])
+); // 'I smell a series!'
 //#endregion
 
 //#region
