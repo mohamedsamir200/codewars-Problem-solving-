@@ -1230,22 +1230,33 @@
 
 //#endregion
 
-//#region 
-// Link ==> 
+//#region Will there be enough space?
+
+// Link ==>  https://www.codewars.com/kata/5875b200d520904a04000003/train/javascript
+// function enough(cap, on, wait) {
+//   const diff = cap - on;
+//   if (diff >= wait) {
+//     return 0;
+//   } else {
+//     return Math.abs (diff - wait);
+//   }
+// }
+// console.log(enough(10, 5, 5)); // 0
+// console.log(enough(100, 60, 50)); // 10
 //#endregion
 
-//#region 
-// Link ==> 
+//#region
+// Link ==>
 //#endregion
 
-//#region 
-// Link ==> 
+//#region
+// Link ==>
 //#endregion
 
-//#region 
-// Link ==> 
+//#region
+// Link ==>
 //#endregion
 
-//#region 
-// Link ==> 
+//#region
+// Link ==>
 //#endregion
